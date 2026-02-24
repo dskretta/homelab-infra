@@ -97,8 +97,7 @@ sequenceDiagram
 ├── main.tf           # Providers and resources
 ├── variables.tf      # Variable declarations
 ├── pipeline.sh       # Bootstrap script — generates wrapped Secret ID at runtime (gitignored)
-├── .env              # Environment config (gitignored)
-├── .env.example      # Template for .env
+├── .env_example      # Example template for the real .env
 └── .gitignore
 ```
 
