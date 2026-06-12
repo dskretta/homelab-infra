@@ -1,0 +1,15 @@
+# Environment / secrets
+.env
+*.env
+!.env.example
+
+# Terraform
+*.tfstate
+*.tfstate.*
+.terraform/
+.terraform.lock.hcl
+crash.log
+*.tfvars
+*.tfvars.json
+override.tf
+override.tf.json
